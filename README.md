@@ -7,6 +7,28 @@ Perfect for teachers, TAs, or coding bootcamps looking to **maintain academic in
 
 ---
 
+## 🖼️ Sample Outputs
+
+Here are real examples of what the tool generates after analysis:
+
+### 1. Comprehensive Statistics Dashboard
+![Dashboard](dashboard.png)
+*Shows connections between students with suspiciously similar code.*
+
+### 2. Plagiarism Network Graph
+![Network Graph](network plot.png)
+*Six detailed charts for in-depth analysis of similarity patterns.*
+
+### 3. Console Results Table
+![Results Table](3 up plot.png)
+*Clear, color-coded output showing scores and risk levels.*
+
+### 4. AST Structure Visualization (Example)
+![AST Example](3 down plot.png)
+*How the tool sees code structure — independent of variable names.*
+
+---
+
 ## ✨ Key Features: Why This Tool Stands Out
 
 * **Multi-Method Detection Engine:**
