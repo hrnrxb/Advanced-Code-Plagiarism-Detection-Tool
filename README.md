@@ -179,8 +179,8 @@ Six insightful plots:
 
 ### 1. Prepare Your Environment
 ```bash
-git clone https://github.com/your-username/code-plagiarism-detector.git
-cd code-plagiarism-detector
+git clone https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool.git
+cd Advanced-Code-Plagiarism-Detection-Tool
 pip install -r requirements.txt
 ```
 
@@ -212,7 +212,7 @@ We welcome improvements! Feel free to:
 - Enhance visualization aesthetics
 - Add command-line arguments
 
-Just open an issue or submit a pull request!
+Just open an issue or submit a pull request😁
 
 ## 📄 License
 - This project is licensed under the MIT License – see the [LICENSE](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/main/LICENSE) file for details.
