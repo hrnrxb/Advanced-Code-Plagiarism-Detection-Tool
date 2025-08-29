@@ -147,7 +147,7 @@ We welcome improvements! Feel free to:
 Just open an issue or submit a pull request!
 
 ## 📄 License
-- This project is licensed under the MIT License – see the LICENSE file for details.
+- This project is licensed under the MIT License – see the [LICENSE](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/main/LICENSE) file for details.
 
 ## 💡 Pro Tips for Teachers
 
