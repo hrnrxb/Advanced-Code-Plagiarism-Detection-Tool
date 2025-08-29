@@ -1,6 +1,7 @@
 # 🔍 Advanced Code Plagiarism Detection Tool
 
-Tired of manually checking student assignments for copying?  
+Tired of manually checking student assignments for copying?😥
+
 This **Python-based Plagiarism Detector** uses advanced code analysis techniques to automatically identify suspicious similarities between student submissions. It goes beyond simple text matching — it understands code *structure*, making it nearly impossible to fool with basic tricks like renaming variables or reformatting.
 
 Perfect for teachers, TAs, or coding bootcamps looking to **maintain academic integrity** with minimal effort.
