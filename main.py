@@ -22,7 +22,7 @@ plt.rcParams['axes.labelsize'] = 10
 plt.rcParams['legend.fontsize'] = 9
 
 # -----------------------------
-# Convert code to AST features (improved version)
+# Convert code to AST features
 # -----------------------------
 def canonicalize_code_ast(code):
     try:
@@ -109,7 +109,7 @@ def structural_similarity(counter1, counter2):
     return jaccard_similarity(struct1, struct2)
 
 def tf_idf_similarity(code1, code2):
-    """TF-IDF based similarity using machine learning approach"""
+    """TF-IDF based similarity using ML approach"""
     # convert codes to string for TF-IDF processing
     vectorizer = TfidfVectorizer(
         token_pattern=r'\b\w+\b',
@@ -342,7 +342,7 @@ def create_network_plot(df, student_names):
              "Dark Red: Critical Risk | Red: High Risk | Orange: Medium Risk | Yellow: Low Risk", 
              fontsize=16, pad=20)
     
-    # improved legend with better positioning
+    # legend with better positioning
     legend_elements = [
         plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='darkred', 
                    markersize=18, label='>=4 Connections (Critical)'),
@@ -356,7 +356,7 @@ def create_network_plot(df, student_names):
                    markersize=10, label='No Suspicious Connection')
     ]
     
-    # position legend outside plot area to avoid overlap
+    # position legend outside plot area to avoid overlap :)
     plt.legend(handles=legend_elements, loc='center left', bbox_to_anchor=(1.05, 0.5), fontsize=11)
     
     # add statistics box in a better position
