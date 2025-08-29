@@ -11,22 +11,22 @@ Perfect for teachers, TAs, or coding bootcamps looking to **maintain academic in
 
 Here are real examples of what the tool generates after analysis:
 
-### 1. Comprehensive Statistics Dashboard
-![dashboard](dashboard.png)
+### Comprehensive Statistics Dashboard
+![dashboard](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/ss/dashborard.png)
 
 *Shows connections between students with suspiciously similar code.*
 
-### 2. Plagiarism Network Graph
-![network plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/network%20plot.png)
+### Plagiarism Network Graph
+![network plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/ss/network%20plot.png)
 *Six detailed charts for in-depth analysis of similarity patterns.*
 
-### 3. Console Results Table
-![3 up plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/3%20up%20plot.png)
-*Clear, color-coded output showing scores and risk levels.*
 
-### 4. AST Structure Visualization (Example)
-![3 down plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/3%20down%20plot.png)
-*How the tool sees code structure — independent of variable names.*
+![3 up plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/ss/3%20up%20plot.png)
+
+
+
+![3 down plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/ss/3%20down%20plot.png)
+
 
 ---
 
@@ -59,6 +59,50 @@ Here are real examples of what the tool generates after analysis:
 
 * **CSV Export:**
   All results are saved to `advanced_plagiarism_results.csv` for documentation and review.
+
+---
+
+## 🧠 Connection to NLP: Beyond Simple Text Matching
+
+While this tool is designed for **code plagiarism detection**, it leverages several **core techniques from Natural Language Processing (NLP)** — not on human language, but on *programming language*. This reflects a modern trend in AI: treating code as a form of language.
+
+### 🔗 Why This Matters: Code as Language
+Programming languages share structural similarities with natural languages:
+- **Syntax** ↔ Grammar
+- **Variables/Functions** ↔ Nouns/Verbs
+- **Logic Flow** ↔ Sentence Meaning
+
+This project applies **NLP-inspired methods** to analyze code the way we analyze text — focusing on *structure* and *patterns*, not just surface-level text.
+
+---
+
+### 🛠️ NLP Techniques Used in This Project
+
+| Technique | Used In NLP For | Used Here For |
+|--------|----------------|----------------|
+| **TF-IDF + Cosine Similarity** | Document similarity, search engines | Detecting similar coding patterns across submissions |
+| **Sequence Matching** | Plagiarism detection in essays | Finding character-level copying in code |
+| **Feature Vectorization** | Text classification | Converting ASTs into comparable numerical features |
+| **Jaccard & Cosine Metrics** | Set similarity in NLP tasks | Measuring overlap in code structure fingerprints |
+
+> 💡 This is part of a growing field: **"NLP for Code"** — used by tools like GitHub Copilot, CodeBERT, and Amazon CodeWhisperer.
+
+---
+
+### 🚀 Future-Proof Design: Ready for Advanced NLP
+The architecture is designed to support **state-of-the-art NLP models for code**, such as:
+- **CodeBERT** – Deep learning model trained on code
+- **Graph Neural Networks (GNNs)** – For AST-based similarity
+- **LLM-based explanations** – e.g., "Why are these two codes similar?"
+
+This shows a **deep understanding of both code analysis and NLP concepts**, making the tool not just functional today, but **scalable for tomorrow’s AI-powered education tools**.
+
+---
+
+### 📚 Key Insight
+> "You don’t need to process English to do NLP.  
+> When you model *any structured language* — including Python — using vectorization, similarity, and pattern recognition…  
+> **You're doing NLP in spirit, even if not in name.**"
 
 ---
 
