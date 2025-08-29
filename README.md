@@ -12,19 +12,20 @@ Perfect for teachers, TAs, or coding bootcamps looking to **maintain academic in
 Here are real examples of what the tool generates after analysis:
 
 ### 1. Comprehensive Statistics Dashboard
-![Dashboard](dashboard.png)
+![dashboard](dashboard.png)
+
 *Shows connections between students with suspiciously similar code.*
 
 ### 2. Plagiarism Network Graph
-![Network Graph](network plot.png)
+![network plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/network%20plot.png)
 *Six detailed charts for in-depth analysis of similarity patterns.*
 
 ### 3. Console Results Table
-![Results Table](3 up plot.png)
+![3 up plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/3%20up%20plot.png)
 *Clear, color-coded output showing scores and risk levels.*
 
 ### 4. AST Structure Visualization (Example)
-![AST Example](3 down plot.png)
+![3 down plot](https://github.com/hrnrxb/Advanced-Code-Plagiarism-Detection-Tool/blob/main/3%20down%20plot.png)
 *How the tool sees code structure — independent of variable names.*
 
 ---
